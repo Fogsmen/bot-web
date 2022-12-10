@@ -44,7 +44,7 @@
     background-color: #111;
     top: 0;
     left: 0;
-    clip-path: polygon(70% 0, 100% 0, 100% 100%, 70% 100%);
+    clip-path: polygon(15% 0, 100% 0, 100% 100%, 70% 100%);
     transform: translateX(100%);
     transition: all 0.3s;
     z-index: 999;
