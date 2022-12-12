@@ -42,7 +42,7 @@
     height: 100%;
     position: fixed;
     background-color: #ffffff;
-    opacity: 0.5;
+    opacity: 1.0;
     top: 0;
     left: 0;
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 10% 100%);
@@ -73,7 +73,7 @@
     text-decoration: none;
     text-transform: capitalize;
     font-size: 30px;
-    color: #eee;
+    color: #F8F8FF;
     position: relative;
   }
   
