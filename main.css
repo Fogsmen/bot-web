@@ -41,7 +41,7 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    background-color: transparent;
+    background-color: rgba(100, 100, 100, 0.5);
     top: 0;
     left: 0;
     clip-path: polygon(0% 0, 100% 0, 100% 100%, 10% 100%);
