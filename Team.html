@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fogsmen</title>
@@ -51,7 +52,23 @@
 <p>
 Fogsmen
 <p/>
-        
+<div class="textanimation_stil">
+Ich sage <span class="textanimation_text"></span>
+</div>
+<script>
+.textanimation_text:before {
+	content: 'Hoi';
+	animation: animate infinite 8s;
+}
+@keyframes animate 
+{
+	0%
+	{
+		content: 'Hoi';
+	}
+		10%
+        }
+</script>
 
 <script type="text/javascript">
 var _iub = _iub || [];
