@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<style>
+.button-clicked {
+  background: red;
+  font-size:99px;
+  height: 180px; 
+  width: 700px
+}
+</style>
+
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fogsmen</title>
@@ -34,8 +44,26 @@
 
              <font color="GhostWhite"> <h1>Über uns</h1></font>
              <img src="20220601120740_IMG_9983.JPG" alt="Fogsmen" width="355" height="200">      
-             <font color="GhostWhite"><p>Seit mehr als 4 Jahren filmen und fotografieren Finn und Tarek Agrartechnik . sie dokumentieren die Arbeit mit den großen und spannendsten Traktoren, Mähdreschern und anderen Landmaschinen. Die Landtechnik sind aufwendig bearbeitet und auf YouTube und Tiktok hochgeladen. Egal ob klein Unternehmen oder Große Landwirtschaftliche Firmen, für gute Landtechnik-Aufnahmen haben die beiden in den letzten Jahren alles gegeben!
-             </p></font>
+             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas vitae scel<span id="dots">...</span><span id="more">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+<button onclick="myFunction()" id="myBtn">Read more</button>
+<script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less";
+    moreText.style.display = "inline";
+  }
+}
+</script>
 
 
  
