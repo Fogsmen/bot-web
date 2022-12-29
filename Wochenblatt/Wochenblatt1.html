@@ -33,6 +33,30 @@ a:hover {
   border-radius: 50%;
 }
 
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
 </style>
 
 <META name="robots" content="index, follow">
@@ -62,10 +86,12 @@ a:hover {
 Dezember ist sie fertig und schon bereit das in Sommer das neue Stroh rein kann.</p>
 
 
-<div class="w3-panel w3-red">
+<div class="alert">
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
   <h3>Wir suchen dich!</h3>
   <p>Du bist zwischen 12 und 16 Jahren und spielst gerne RP dann bewerbe dich jetzt für Waldstäten RP in LS 22</p>
 </div> 
+
 
 
 <a href="#" class="previous">&laquo; Previous</a>
